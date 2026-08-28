@@ -1,11 +1,20 @@
 {
   "name": "Teacher Nelly's Young Learners Academy",
   "short_name": "Teacher Nelly Academy",
+  "description": "Teacher Nelly's Young Learners Academy – Learn, Play and Grow.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#f6f7ff",
-  "theme_color": "#635bff",
+  "orientation": "portrait",
+  "background_color": "#FFD21F",
+  "theme_color": "#5B18D6",
+  "lang": "en-NG",
   "icons": [
-    {"src":"academy-icon.png","sizes":"1536x1536","type":"image/png","purpose":"any maskable"}
+    {
+      "src": "academy-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }
