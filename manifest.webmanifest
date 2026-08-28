@@ -1,0 +1,11 @@
+{
+  "name": "Teacher Nelly's Young Learners Academy",
+  "short_name": "Teacher Nelly Academy",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f7ff",
+  "theme_color": "#635bff",
+  "icons": [
+    {"src":"academy-icon.png","sizes":"1536x1536","type":"image/png","purpose":"any maskable"}
+  ]
+}
