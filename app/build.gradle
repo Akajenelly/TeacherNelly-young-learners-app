@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.nellyacademy.app'
+    namespace 'com.example.teachernellyacademy'
     compileSdk 35
 
     defaultConfig {
-        applicationId 'com.nellyacademy.app'
+        applicationId 'com.example.teachernellyacademy'
         minSdk 23
         targetSdk 35
         versionCode 1
@@ -22,4 +22,5 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
 }
