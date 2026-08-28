@@ -1,12 +1,14 @@
-package com.nellyacademy.app
+package com.example.teachernellyacademy
 
-import android.app.Activity
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : Activity() {
+class MainActivity : AppCompatActivity() {
 
+    @SuppressLint("SetJavaScriptEnabled")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -15,18 +17,18 @@ class MainActivity : Activity() {
         webView.settings.javaScriptEnabled = true
         webView.settings.domStorageEnabled = true
         webView.settings.allowFileAccess = true
+        webView.settings.allowContentAccess = true
 
         webView.webViewClient = WebViewClient()
 
-        webView.loadUrl("https://nellyyounglearnersapp.netlify.app")
+        webView.loadUrl("https://nelaca.netlify.app")
 
         setContentView(webView)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
-        // Go back inside the website if possible
         val webView = findViewById<WebView>(android.R.id.content)
-        
         if (webView.canGoBack()) {
             webView.goBack()
         } else {
