@@ -6,8 +6,6 @@
     <application
         android:allowBackup="true"
         android:label="Teacher Nelly Academy"
-        android:icon="@drawable/academy_icon"
-        android:roundIcon="@drawable/academy_icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
